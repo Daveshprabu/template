@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f44;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+}
+.hero-btn:hover{
+    border: 1px solid chartreuse;
+    background: chartreuse;
+    transition: 0.2s;
+}
+.login{
+    padding: 35%;
+    background: linear-gradient(rgb(103, 103, 183),purple);
+    border-radius: 50px;
+    top: 20%;
+}
+.text1 p{
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+.text1 h1{
+    text-align: center;
+    background-color: rgb(98, 98, 98);
+}
+.clo img{
+    text-align:center ;
+    border-radius: 20px;
+    position: relative;
+    left: 12%;
+}
+.text2 p{
+    padding: 10px;
+    text-align: center;
+}.text2 h1{
+    text-align: center;
+    background-color: rgb(98, 98, 98);   
+}
+.cott img{
+    text-align:center ;
+    border-radius: 20px;
+    position: relative;
+    left: 23%;
+}
+.silk h1{
+    text-align: center;
+    background-color: rgb(98, 98, 98);
+}
+.silk p{
+    padding: 10px;
+    text-align: center;
+}
+.silkk img{
+    text-align:center ;
+    border-radius: 20px;
+    position: relative;
+    left: 23%;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    color: #f44;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section form {
+    margin-top: 10px;
+}
+
+.footer-section input,
+.footer-section button {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer-section input {
+    width: 60%;
+}
+
+.footer-section button {
+    width: 35%;
+    background-color: #f44;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section button:hover {
+    background-color: #555;
+}
